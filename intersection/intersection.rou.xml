@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-05-02 10:41:27 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+     <!-- VTypes -->
+    <vType id="CarA" length="5.00" minGap="2.50" maxSpeed="50.00" accel="3.0" decel="6.0" sigma="0.5"/>
+    <vType id="CarB" length="7.50" minGap="2.50" maxSpeed="50.00" accel="2.0" decel="6.0" sigma="0.5"/>
+    <vType id="CarC" length="5.00" minGap="2.50" maxSpeed="40.00" accel="1.0" decel="5.0" sigma="0.5"/>
+    <vType id="CarD" length="7.50" minGap="2.50" maxSpeed="30.00" accel="1.0" decel="5.0" sigma="0.5"/>
+    <!-- Routes -->
+    <route id="r_0" edges="S1 W2"/>
+    <route id="r_1" edges="S1 N2"/>
+    <route id="r_10" edges="E1 W2"/>
+    <route id="r_11" edges="E1 S2"/>
+    <route id="r_12" edges="E1 W2"/>
+    <route id="r_13" edges="W1 E2"/>
+    <route id="r_14" edges="W1 S2"/>
+    <route id="r_15" edges="W1 N2"/>
+    <route id="r_2" edges="S1 E2"/>
+    <route id="r_3" edges="N1 S2"/>
+    <route id="r_4" edges="N1 W2"/>
+    <route id="r_5" edges="N1 E2"/>
+    <route id="r_6" edges="N1 S2"/>
+    <route id="r_7" edges="N1 W2"/>
+    <route id="r_8" edges="N1 E2"/>
+    <route id="r_9" edges="E1 N2"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <vehicle id="veh0" type="CarA" depart="54000.00" color="red" route="r_0"/>
+    <vehicle id="veh1" type="CarA" depart="54000.00" route="r_1"/>
+    <vehicle id="veh10" type="CarA" depart="54000.00" route="r_10"/>
+    <vehicle id="veh11" type="CarA" depart="54000.00" route="r_11"/>
+    <vehicle id="veh12" type="CarB" depart="54000.00" color="red" route="r_0"/>
+    <vehicle id="veh13" type="CarB" depart="54000.00" route="r_1"/>
+    <vehicle id="veh14" type="CarB" depart="54000.00" route="r_12"/>
+    <vehicle id="veh15" type="CarB" depart="54000.00" route="r_13"/>
+    <vehicle id="veh16" type="CarB" depart="54000.00" route="r_14"/>
+    <vehicle id="veh17" type="CarB" depart="54000.00" route="r_15"/>
+    <vehicle id="veh18" type="CarB" depart="54000.00" route="r_2"/>
+    <vehicle id="veh19" type="CarB" depart="54000.00" route="r_3"/>
+    <vehicle id="veh2" type="CarA" depart="54000.00" route="r_12"/>
+    <vehicle id="veh20" type="CarB" depart="54000.00" route="r_4"/>
+    <vehicle id="veh21" type="CarB" depart="54000.00" route="r_5"/>
+    <vehicle id="veh22" type="CarB" depart="54000.00" route="r_10"/>
+    <vehicle id="veh23" type="CarB" depart="54000.00" route="r_11"/>
+    <vehicle id="veh24" type="CarC" depart="54000.00" color="red" route="r_0"/>
+    <vehicle id="veh25" type="CarC" depart="54000.00" route="r_1"/>
+    <vehicle id="veh26" type="CarC" depart="54000.00" route="r_12"/>
+    <vehicle id="veh27" type="CarC" depart="54000.00" route="r_13"/>
+    <vehicle id="veh28" type="CarC" depart="54000.00" route="r_14"/>
+    <vehicle id="veh29" type="CarC" depart="54000.00" route="r_15"/>
+    <vehicle id="veh3" type="CarA" depart="54000.00" route="r_13"/>
+    <vehicle id="veh30" type="CarC" depart="54000.00" route="r_2"/>
+    <vehicle id="veh31" type="CarC" depart="54000.00" route="r_3"/>
+    <vehicle id="veh32" type="CarC" depart="54000.00" route="r_4"/>
+    <vehicle id="veh33" type="CarC" depart="54000.00" route="r_5"/>
+    <vehicle id="veh34" type="CarC" depart="54000.00" route="r_10"/>
+    <vehicle id="veh35" type="CarC" depart="54000.00" route="r_11"/>
+    <vehicle id="veh36" type="CarD" depart="54000.00" color="red" route="r_0"/>
+
+</routes>

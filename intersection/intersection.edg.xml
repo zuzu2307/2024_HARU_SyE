@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <edge id="N1" from="North" to="Center" type="3_lanes" />
+    <edge id="N2" from="Center" to="North" type="1_lane" />
+
+    <edge id="S1" from="South" to="Center" type="1_lane" />
+    <edge id="S2" from="Center" to="South" type="3_lanes" />
+
+    <edge id="E1" from="East" to="Center" type="3_lanes" />
+    <edge id="E2" from="Center" to="East" type="1_lane" />
+
+    <edge id="W1" from="West" to="Center" type="1_lane" />
+    <edge id="W2" from="Center" to="West" type="3_lanes" />
+</edges>
